@@ -1,0 +1,69 @@
+Bugs:
+    Página principal:
+        Header:
+            Area 'Portal' e 'Planos' não levam ha respectiva parte da pagina
+                Se tentado acessar antes da parte nada acontece, se tentar 
+                acessar vindo de baixo, se volta para a area 'PACS'.
+            Formulario de 'Experimente por 14 dias!':
+                Campo 'nome' aceita números. Ex: 123
+                Campo 'email' aceita emails não validos. Ex: 123@123
+                Campo 'telefone' aceita telefones invalidos. Ex: 123
+        Footer:
+            Botão de troca de idioma para 'Inglês' troca para o idioma Espanhol.
+            Botão de rede social 'Twitter/X' redireciona para o 'Facebook'
+        Campo Contato:
+            A mensagem de erro não informa qual campo está faltando 
+        preenchimento.
+            Campo 'nome' aceita números. Ex: 123
+            Campo 'email' aceita emails não validos. Ex: 123@123
+            Campo 'telefone' aceita telefones invalidos. Ex: 123
+            Campos não possuem um atributo 'autocomplete'
+        UI:
+            Computador no começo da página sobrepoem o titulo se a janela for pequena.
+            Com o navegador em janela menor, no menu do Header o botão 'Entrar' não aparece.
+        Performance:
+            Botão 'Entrar' sobrecarrega o navegador. Ao abrir as devtools uma contagem de bugs aumenta infinitamente, possivelmente um loop infinito.
+        Falha ao carregar um recurso:
+            GET connect.facebook.net/en_US/fbevents.js:1 index.html:11
+            net::ERR_BLOCKED_BY_CLIENT
+
+    
+
+    Página 'about.html':
+        Area 'mídia e eventos':
+            Dois cards sobre JPR 2019 não abrem link para nenhum site
+        Footer:
+            Botão de troca de idioma para 'Inglês' troca para o idioma Espanhol.
+            Botão de rede social 'Twitter/X' redireciona para o 'Facebook'
+        Falha ao carregar um recurso:
+            GET connect.facebook.net/en_US/fbevents.js:1 about.html:11
+            net::ERR_BLOCKED_BY_CLIENT
+
+
+    Página 'carrers.html':
+        Botão 'voltar para o site':
+            Retorna um erro de acesso negado.
+        UI:
+            Area 'no que acreditamos':
+                Imagem duplicada quando a janela está pequena.
+            Area 'Como é trabalhar na Medcloud?':
+                Segundo card "Eric Plugge" está sem foto.
+            Area 'Confira as vagas abertas':
+                Texto das vagas salta para fora do container com a 
+                janela pequena.
+        Footer:
+            Botão de troca de idioma para 'Inglês' troca para o idioma Espanhol.
+            Botão de rede social 'Twitter/X' redireciona para o 'Facebook'
+        Falha ao carregar um recurso:
+            GET connect.facebook.net/en_US/fbevents.js:1 carrers.html:11
+            net::ERR_BLOCKED_BY_CLIENT
+       Páginas de submissão de vaga:
+            Em todos os formularios das páginas foi possivel colocar inputs invalidos nos campos e submenter um arquivo que não fosse pdf.
+
+Linha de pensamento:
+    Primeiramente após ler o SRS, comecei testando os Requisitos Especificos, clicando em todos os botões do Header para verificar suas funcionalidades.Ao clicar nos campos do Header notei que os campos 'Portal' e 'Planos' não levam aos seus respectivos lugares. Depois testei o formulario do botão 'Teindexstar grátis', testando primeiramente com informações padrão e depois com informações que os campos não deveriam aceitar. Testei o botão 'entrar' e notei que ele sobrecarrega o navegador com algum processo. Ao abrir a devtools do navegador me deparei com uma mensagem de erro dizendo "ISSO É UM BUG".
+    Logo após testei o Footer da pagina, clicando primeiramente em todos os botões de redes sociais, e notando que o botão 'Twitter/X' leva para o 'Facebook'. Depois testei todos os hypertextos da coluna 'Sobre' para verificar que todos abrem links para os locais corretos, testei se os links para a 'App Store' e a 'Google Play' também estavam funcionando. Ao testar os botões de idiomas notei que o botão de mudança para 'Inglês' estava mudando o idioma para Espanhol.
+    Depois disso coloquei o navegador em modo janela e diminui o tamanho para testar a responsividade do site. Notei que logo no começo da página ocorre uma sobreposição de texto em cima de uma imagem.
+    Após isso fui para a página 'about.html', notei que os cards com noticias abriam links para as noticias então testei todos os cards, vendo que os dois ultimos cards sobre JPR 2019 não abrem nenhum link. Fui descendo a pagina clicando em todos os botões para ver se funcionavam. Depois testei o Footer dessa página e notei os mesmos bugs da página principal. E testei o botão 'Voltar a página inicial' e estava ok. Repeti o processo da página inicial para ver a responsividade e estava tudo ok.
+    Em seguida testei a página 'carrers.html'. Testando todos os cards da sessão 'vagas abertas' para verificar se estavam redirecionando aos links corretos. Notei que o card "Eric Plugge" estava sem foto na sessão 'Como é trabalhar na MedCloud'. Depois testei o Footer e notei novamente os mesmos bugs das páginas anteriores. Testei o botão 'Voltar para o site' e notei que estava dando erro relacionado a página não ter um 'stylesheet' e mostrando o conteúdo do arquivo XML apenas com os campos 'Access Denied'. Em seguida testei a responsividade da página e notei uma imagem duplicada e o texto dos cards de vagas estavam saindo para fora do card.
+    Também abri as três paginas lado a lado e conferi se as informações dos três Footers estavam corretas.
