@@ -1,0 +1,61 @@
+Features:
+	Página Principal:
+		Header contendo a logo da empresa, 6 atalhos para seus respectivos lugares na página e dois botões sendo um para se cadastrar e um para logar na página respectivamente.
+
+		Na primeira área do site temos três cards que mudam o conteudo de um computador de acordo com o card.
+
+		Uma quebra de página com os premios ganhos pela empresa.
+
+		Uma sessão com 5 videos do canal da empresa.
+
+		Uma sessão mostrando o software da empresa com suas vantagens.
+
+		Uma área sobre seu atendimento automatizado com hyperlinks para a 'App Store' e a 'Google Play' para download do aplicativo.
+
+		Uma sessão sobre a workstation DICOM, que muda o estilo da página para um ambiente escuro, simulando o software.
+
+		Saindo dessa área o site volta para sua estilização normal, anunciando seu aplicativo, agora com mais enfâse na praticidade de caber no bolso.
+
+		Mais adiante o site possui um carrossel de cards mostrando alguns de seus cliente.
+
+		Depois dois cards com botões que abrem um modal semelhante ao botão de 'Testar grátis' do Header, com um formulario para cadastro.
+
+		Uma sessão para esclarecer dúvidas frequentes, com cada dúvida sendo um card que aberto é possivel obter a resposta, assim ocupando menos espaço.
+
+		Uma área para se entrar em contato através de um formulario.
+
+		O Footer com botões para as principais redes sociais, uma área com os principais meios de contato e localidade, uma outra área com links relacionados e uma terceira com botões para a 'App Store' e 'Google Play'. Uma quebra e logo após a logo da empresa, junto com as logos da ICP Brasil, Anvisa, HIPAA Compliant e AWS. Três botões para selecionar o idioma, e por fim os direitos autorais e o registro da anvisa.
+	
+
+	Página About:
+		O Header possui um botão para voltar ao site principal, e a logo da empresa centralizada.
+
+		Ao longo do site vemos dois carrosseis de itens, o primeiro com cards que levam para noticias sobre a empresa, o segundo somente mostrando os premios ganhos.
+
+		Em seguida uma área com um botão para entrar em contato que abre o aplicativo de email do usuario.
+
+		Depois uma área com um botão que leva ao site de vagas abertas.
+
+		E por fim o mesmo Footer da página principal.
+
+	
+	Página Carrers:
+		Um Header semelhante ao da página About.
+
+		Próximo ao fim do site vemos um carrossel com cards com foto de colaboradores, seu nome, posição na empresa, e um breve texto sobre a experiencia de cada um.
+
+		Logo após temos cards para cada posição disponivel, que levam as suas respectivas páginas para aplicação.
+
+		E por fim o mesmo Footer das outras páginas.
+
+	
+	Páginas de aplicação:
+		Um Header semelhante ao das outras páginas.
+
+		Um título com o nome da vaga.
+
+		Informações como: 'Sobre a Medcloud', 'Objetivos', 'Responsabilidades', 'Pré Requisitos', 'Diferenciais', 'Perfil', 'Beneficios'.
+
+		Uma área com um formulario para se candidatar possuindo um botão para anexar o currículo.
+
+		O mesmo Footer das outras páginas.
