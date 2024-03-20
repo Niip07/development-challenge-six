@@ -1,0 +1,71 @@
+Bugs:
+	Main page:
+		Header:
+		'Portal' and 'Plans' areas do not navigate to their respective parts of the page
+			When attempting to access before the section, nothing happens; if attempted
+			from below, it goes back to the 'PACS' area.
+		'Try for 14 days!' Form:
+			'Name' field accepts numbers. Ex: 123
+			'Email' field accepts invalid emails. Ex: 123@123
+			'Phone' field accepts invalid phone numbers. Ex: 123
+		Footer:
+			Language switch button to 'English' changes to Spanish.
+			'Twitter/X' social media button redirects to 'Facebook'.
+		Contact field:
+			Error message does not indicate which field is missing input.
+			'Name' field accepts numbers. Ex: 123
+			'Email' field accepts invalid emails. Ex: 123@123
+			'Phone' field accepts invalid phone numbers. Ex: 123
+			Fields do not have an 'autocomplete' attribute.
+		UI:
+			Computer at the top of the page overlaps the title if the window is small.
+			With a smaller window, the 'Sign In' button in the Header menu does not appear.
+		Performance:
+			'Sign In' button overloads the browser. When opening the devtools, a bug count increases infinitely, possibly indicating an infinite loop.
+		Resource loading failure:
+			GET connect.facebook.net/en_US/fbevents.js:1 index.html:11
+			net::ERR_BLOCKED_BY_CLIENT
+
+	'about.html' Page:
+    		'Media and Events' section:
+        		Two cards about JPR 2019 do not link to any website.
+    		Footer:
+        		Language switch button to 'English' changes to Spanish.
+        		'Twitter/X' social media button redirects to 'Facebook'.
+    		Resource loading failure:
+        		GET connect.facebook.net/en_US/fbevents.js:1 about.html:11
+        		net::ERR_BLOCKED_BY_CLIENT
+
+	'careers.html' Page:
+    		'Back to the site' button:
+        		Returns an access denied error.
+    		UI:
+        		'What We Believe In' section:
+            			Image duplicates when the window is small.
+        		'What's It Like Working at Medcloud?' section:
+            			Second card "Eric Plugge" is missing a photo.
+        		'Check Out Open Positions' section:
+            			Job listings text overflows the container with a 
+            			small window.
+    		Footer:
+        		Language switch button to 'English' changes to Spanish.
+        		'Twitter/X' social media button redirects to 'Facebook'.
+    		Resource loading failure:
+        		GET connect.facebook.net/en_US/fbevents.js:1 careers.html:11
+        		net::ERR_BLOCKED_BY_CLIENT
+    	Job submission pages:
+        	In all form submissions, it was possible to input invalid data and submit a non-PDF file.
+
+
+Train of thought:
+Initially, after reading the SRS, I began by testing the Specific Requirements, clicking on all the buttons in the Header to verify their functionality. When clicking on the Header fields, I noticed that the 'Portal' and 'Plans' fields do not navigate to their respective locations. Then I tested the 'Try for Free' button form, first with standard information and then with information that the fields should not accept. I tested the 'Sign In' button and noticed it overloads the browser with some process. Upon opening the browser devtools, I encountered an error message saying "THIS IS A BUG".
+Next, I tested the page's Footer, first clicking on all the social media buttons and noticing that the 'Twitter/X' button redirects to 'Facebook'. Then I tested all the hyperlinks in the 'About' column to verify that they all open links to the correct locations, also checking if the links to the 'App Store' and 'Google Play' were working. Testing the language buttons, I noticed that the button to switch to 'English' was changing the language to Spanish.
+After that, I resized the browser window to test the site's responsiveness. I noticed that right at the beginning of the page, there's text overlapping an image.
+After that, I went to the 'about.html' page, noticed that the news cards were opening links to the news, so I tested all the cards, finding that the last two cards about JPR 2019 do not open any links. I scrolled down the page clicking on all buttons to see if they worked. Then I tested the Footer of this page and noticed the same bugs as the main page. I tested the 'Back to the home page' button, and it was okay. I repeated the process from the main page to check the responsiveness, and everything was okay.
+Next, I tested the 'careers.html' page. I tested all the cards in the 'open positions' section to verify if they were redirecting to the correct links. I noticed that the "Eric Plugge" card was missing a photo in the 'What's It Like Working at MedCloud?' section. Then I tested the Footer and noticed again the same bugs as the previous pages. I tested the 'Back to the site' button and noticed it was giving an error related to the page not having a 'stylesheet' and showing only the XML file content with the 'Access Denied' fields. Then I tested the responsiveness of the page and noticed a duplicated image and the text of the job listings cards overflowing the card.
+I also opened the three pages side by side and checked if the information in all three Footers was correct.
+
+
+
+
+

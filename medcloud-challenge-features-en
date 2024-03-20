@@ -1,0 +1,58 @@
+Features:
+	Main Page:
+		Header containing the company logo, 6 shortcuts to their respective places on the page, and two buttons, one for registration and one for logging into the page respectively.
+
+		In the first area of the site, there are three cards that change the content of a computer according to the card.
+
+        	A page break with the awards won by the company.
+
+	        A section with 5 videos from the company's channel.
+
+        	A section showing the company's software with its advantages.
+
+ 		An area about its automated service with hyperlinks to the 'App Store' and 'Google Play' for downloading the application.
+
+        	A section about the DICOM workstation, which changes the page style to a dark environment, simulating the software.
+
+        	Exiting this area, the site returns to its normal styling, advertising its application, now with more emphasis on its pocket-friendly nature.
+
+        	Further down, the site has a carousel of cards showing some of its clients.
+
+        	Then two cards with buttons that open a modal similar to the 'Try for Free' button in the Header, with a registration form.
+
+        	A section to clarify frequently asked questions, with each question being a card that, when opened, provides the answer, thus occupying less space.
+
+        	An area to contact through a form.
+
+        	The Footer with buttons for the main social networks, an area with the main contact methods and location, another area with related links, and a third with buttons for the 'App Store' and 'Google Play'. A break and then the company logo, along with the logos of ICP Brasil, Anvisa, HIPAA Compliant, and AWS. Three buttons to select the language, and finally, the copyright and Anvisa registration.
+
+	About Page:
+    		The Header has a button to return to the main site, and the company logo centered.
+ 
+		Throughout the site, we see two carousels of items, the first with cards leading to news about the company, and the second only showing the awards won.
+
+		Next, an area with a button to contact, which opens the user's email application.
+
+    		Then an area with a button that leads to the open positions website.
+
+    		And finally, the same Footer as the main page.
+
+	Careers Page:
+    		A Header similar to that of the About page.
+
+    		Near the end of the site, we see a carousel with cards featuring photos of employees, their names, positions in the company, and a brief text about each one's experience.
+
+    		Immediately after, there are cards for each available position, which lead to their respective application pages.
+
+    		And finally, the same Footer as the other pages.
+
+	Application Pages:
+    		A Header similar to the other pages.
+
+    		A title with the name of the vacancy.
+
+    		Information such as: 'About Medcloud', 'Objectives', 'Responsibilities', 'Prerequisites', 'Differentials', 'Profile', 'Benefits'.
+
+    		An area with a form to apply, including a button to attach the resume.
+
+    		The same Footer as the other pages.
